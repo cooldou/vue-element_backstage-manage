@@ -1,0 +1,33 @@
+.page-toolbar {
+  padding: 10px 20px 0;
+  box-sizing: border-box;
+  &.page-toolbar-border-bottom {
+    border-bottom: 1px solid #ebeef5;
+  }
+  .columns {
+    display: flex;
+    justify-content: space-between;
+    .left {
+      flex: 1;
+      .el-form .el-form-item {
+        margin-bottom: 10px;
+      }
+      .el-form-item .el-form-item__content {
+      .el-button {
+        display: flex;
+      }
+    }
+    }
+
+    .right {
+      text-align: right;
+      flex-shrink: 0;
+      align-self: baseline !important;
+      margin-bottom: 8px;
+    }
+
+    .el-form--inline .el-form-item {
+      margin-bottom: 0;
+    }
+  }
+}
