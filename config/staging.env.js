@@ -4,5 +4,5 @@ const prodEnv = require('./prod.env')
 
 module.exports = merge(prodEnv, {
   NODE_ENV: '"staging"',
-  BASE_URL: '"http://gp-local.cn:9001"'
+  BASE_URL: '"http://xxx.xxx:9001"'
 })
