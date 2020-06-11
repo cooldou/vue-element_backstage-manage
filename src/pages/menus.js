@@ -8,13 +8,13 @@ const buildIcon = (menu) => {
 // 菜单配置
 const managementMenuItems = [
   {
-    name: '首页', //菜单名字
-    icon: 'icon_dashboard', //菜单对应的icon图标
+    name: '主页', //菜单名字
+    icon: 'icon_dashboard', //菜单对应的icon图标,图标需要放在 static/menu-icon 中 按规定的格式命名 
     path: '/dashboard', // 与 router 中的路径相对应
   },
   {
     name: '有子菜单的菜单',
-    icon: 'icon_study',
+    icon: 'icon_data',
     path: '/study',
     items: [
       {
